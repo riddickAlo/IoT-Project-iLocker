@@ -19,7 +19,11 @@
   - WiFi.h
 
 ## System Components
-- WeMos D1R2  x1
-- ESP32-Cam   x2
+| Item | Spec | Amount |
+| ---- | ---- | ----   |
+| WeMos D1R2 | | x1 |
+| ESP32-Cam | | x2
+| Power supply module | AC110v/DC5v2a  | x1 |
+| Power supply module | AC110v/DC12v1a  | x1 |
 
 ## The members
