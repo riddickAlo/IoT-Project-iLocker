@@ -6,17 +6,17 @@
 
 
 ## Libraries
-- Arduino preference => Additional boards manager URLs: http://arduino.esp8266.com/stable/package_esp8266com_index.json
+- Arduino IDE preference => Additional boards manager URLs: http://arduino.esp8266.com/stable/package_esp8266com_index.json
 (esp8266 by ESP8266 Community Version 2.7.4)
 
 - For both types of module
-UniversalTelegramBot.h
+  - UniversalTelegramBot.h
 
 - For WeMos D1 R2
-ESP8266WiFi.h
+  - ESP8266WiFi.h
 
 - For Esp32 Cam
-WiFi.h
+  - WiFi.h
 
 ## System Components
 - WeMos D1R2  x1
