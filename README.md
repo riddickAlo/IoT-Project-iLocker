@@ -1,10 +1,10 @@
 # IIoT-Project-iLocker
-##Introduction
-
+## Introduction
+-------
 111-1 IoT Course Project
 
 
 
-##Dependencies
-
+## Dependencies#
+-------
 do some changes in sub-branch
