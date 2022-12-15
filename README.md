@@ -28,7 +28,7 @@
 | SSR module | 5v | x1 |
 | Button switch | | x1 |
 | Plastic drawer | 34x20.5x46 cm | x1 |
-| Traffic light LED module | or just 3 LED | x1 |
+| Traffic light LED module | or just 3 LEDs also work | x1 |
 | Electromagnetic lock | 12v | x1 |
 | Power line | 2~3m | x1 |
 | Circuit board | | x1 |
