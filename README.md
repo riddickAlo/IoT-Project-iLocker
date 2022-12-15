@@ -33,4 +33,6 @@
 | Power line | 2~3m | x1 |
 | Circuit board | | x1 |
 
+ps.Electricity supply in Taiwan is 110V/60Hz
+
 ## The members
