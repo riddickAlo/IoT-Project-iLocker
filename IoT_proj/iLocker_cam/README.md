@@ -1,4 +1,5 @@
 ## The codes for esp-32 cam modules.
 
-Board dependency: ESP32 v1.0.6  
-for esp32, you should include <WiFi.h>.
+- Board dependency: ESP32 v1.0.6  
+- Arduino IDE preference => Additional boards manager URLs: https://dl.espressif.com/dl/package_esp32_index.json  
+- for esp32, you should include <WiFi.h>.
