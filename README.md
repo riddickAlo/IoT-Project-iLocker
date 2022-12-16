@@ -6,9 +6,6 @@ Website URL:
 System flow:
 ![image](https://github.com/riddickAlo/IoT-Project-iLocker/blob/main/AIoT2.drawio.png)
 
-## ESP Board setting
-- Arduino IDE preference => Additional boards manager URLs: http://arduino.esp8266.com/stable/package_esp8266com_index.json
-
 ## System Components
 | Item | Spec | Amount |
 | ---- | ---- | ----   |
