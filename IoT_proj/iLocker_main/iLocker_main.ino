@@ -18,13 +18,11 @@
 More about pin difference:
 https://www.instructables.com/Programming-the-WeMos-Using-Arduino-SoftwareIDE/
 */
-const char* ssid = "EEB02-2(2.4G)";
-const char* pwd = "IOTEEB0202";
-// const char* ssid = "Factory2_2.4G";
-// const char* pwd = "118factory2";
-String BOTtoken = "5550726322:AAEjE7CNkNmunGwwJEFnmjDC6Z2nXGoztps";
+const char* ssid = {wifi ssid};
+const char* pwd = {wifi password}
+String BOTtoken = {your TGbot token};
 
-String su_ID = "840689318";   // root user ID
+String su_ID = {user id};   // root user ID, for further system setting
 String current_user = "";
 bool su_login = false;
 
@@ -34,10 +32,8 @@ bool su_login = false;
 WiFiUDP UDP1, UDP2;
 char packet[10];
 String old_pak = "";
-IPAddress CamIn_IP(192, 168, 1, 70);
+IPAddress CamIn_IP(192, 168, 1, 70);      // IPs of cam modules
 IPAddress CamOut_IP(192, 168, 1, 244);
-// IPAddress CamIn_IP(192, 168, 50, 178);
-// IPAddress CamOut_IP(192, 168, 50, 147);
 void handleUDPmessage();
 void UDPsent(uint8_t);
 
@@ -51,7 +47,6 @@ bool lock_state = false;                  // lock state
 unsigned long last_camIn_check = 0;       // record last time check esp32 cam
 unsigned long last_camOut_check = 0;      //
 unsigned long lastTimeBotRan = 0;         //
-unsigned long GL_ONtime = 0;              //
 bool stat=0;                              //
 
 
@@ -120,8 +115,8 @@ void loop() {
     bot.sendSimpleMessage(current_user, lockedstr, "");
   }
   
-  LED_state(millis());
-  UDPsent(0);          // ping cam nodes
+  LED_state(millis());  // refresh led states
+  UDPsent(0);           // ping cam nodes
 
   delay(300);
 }
