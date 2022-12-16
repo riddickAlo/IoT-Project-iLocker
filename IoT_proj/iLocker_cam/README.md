@@ -2,4 +2,4 @@
 
 - Board dependency: ESP32 v1.0.6  
 - Arduino IDE preference => Additional boards manager URLs: https://dl.espressif.com/dl/package_esp32_index.json  
-- for esp32, you should include <WiFi.h>.
+- For esp32, you should include <WiFi.h>.
