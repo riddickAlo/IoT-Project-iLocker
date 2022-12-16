@@ -4,7 +4,7 @@
 - System flow:
 ![image](https://github.com/riddickAlo/IoT-Project-iLocker/blob/main/AIoT2.drawio.png)  
   
-- For more detail, please check on our website:  
+- For more detail, please check on the website:  
 
 ## System Components
 | Item | Spec | Amount |
