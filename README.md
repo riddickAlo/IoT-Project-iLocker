@@ -1,5 +1,5 @@
 # IIoT-Project-iLocker
-111-1 Project of IoT Course
+111-1 Final-term Project of IoT Course
 ## Introduction
 Website URL: 
 
@@ -24,5 +24,3 @@ System flow:
 | Electromagnetic lock | 12v | x1 |
 | Power line | 2~3m | x1 |
 | Circuit board | | x1 |
-
-## The members
