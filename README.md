@@ -1,4 +1,4 @@
-# IIoT-Project-iLocker
+# iLocker
 111-1 Final-term Project of IoT Course
 ## Introduction
 Website URL: 
