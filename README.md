@@ -1,5 +1,5 @@
 # iLocker
-111-1 Final-term Project of IoT Course
+111-1 Final-term Project of IIoT Course
 ## Introduction
 Website URL: 
 
