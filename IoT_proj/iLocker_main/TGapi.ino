@@ -49,7 +49,6 @@ void handleNewMessages(int numNewMessage) {
         resp += "Locker is unlocked, enjoy your food~";
         lock_state = 0;
         digitalWrite(LOCK_pin, lock_state);
-        GL_ONtime = millis();
         current_user.clear();
         Serial.println(resp);
         bot.sendMessage(chat_id, resp, "");
