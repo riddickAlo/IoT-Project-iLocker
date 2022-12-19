@@ -18,9 +18,9 @@
 More about pin difference:
 https://www.instructables.com/Programming-the-WeMos-Using-Arduino-SoftwareIDE/
 */
-const char* ssid = {wifi ssid};
-const char* pwd = {wifi password}
-String BOTtoken = {your TGbot token};
+const char* ssid = "{wifi ssid}";
+const char* pwd = "{wifi password}";
+String BOTtoken = "{your TGbot token}";
 
 String su_ID = {user id};   // root user ID, for further system setting
 String current_user = "";
