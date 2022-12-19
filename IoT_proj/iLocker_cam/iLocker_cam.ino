@@ -10,10 +10,8 @@
 #include <WiFiUdp.h>
 #include <string.h>
 
-//const char* ssid = "Factory2_2.4G";
-//const char* password = "118factory2";
-const char* ssid = "EEB02-2(2.4G)";
-const char* password = "IOTEEB0202";
+const char* ssid = "{wifi ssid}";
+const char* password = "{wifi password}";
 
 //-----------------------------------------------------------------------------------------------------------
 WiFiUDP Udp;                      //Create a UDP class
@@ -23,10 +21,7 @@ char incomingPacket[20];
 //-----------------------------------------------------------------------------------------------------------
 
 // Initialize Telegram BOT
-//String BOTtoken = "5539838452:AAF1JQ5_fuAp3M7D9QnMkTElcCvUSpYpIVs";  // your Bot Token (Get from Botfather)
-String BOTtoken = "5550726322:AAEjE7CNkNmunGwwJEFnmjDC6Z2nXGoztps"; //
-//String CHAT_ID = "5593525882";
-//String CHAT_ID = "840689318";
+String BOTtoken = "{TG bot TOKEN}";  // your Bot Token (Get from Botfather)
 String CHAT_ID = "";
 
 bool sendPhoto = false;
@@ -35,7 +30,7 @@ WiFiClientSecure clientTCP;
 UniversalTelegramBot bot(BOTtoken, clientTCP);
 
 #define FLASH_LED_PIN 4
-bool is_InCam =true;              // if it's inside camera, set to true
+bool is_InCam = true;              // if it's inside camera, set to true
 
 //Checks for new messages every 1 second.
 int botRequestDelay = 1000;
