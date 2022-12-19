@@ -11,7 +11,7 @@
 | ---- | ---- | ----   |
 | WeMos D1R2 | | x1 |
 | ESP32-Cam | | x2
-| Power supply module | AC to DC5v >1A  | x1 |
+| Power supply module | AC to DC5v >1.5A  | x1 |
 | Power supply module | AC to DC12v >0.6A | x1 |
 | SSR module | 5v | x1 |
 | Button switch | | x1 |
